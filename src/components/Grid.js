@@ -18,9 +18,7 @@ function Grid({user, editEnabled, doSaveAll}) {
             if (editedName) {
                 let newUser = editedName;
                 setShowEdit(false);
-                dispatch(editUser({id: user.id, name:newUser}));
-            } else {
-                alert("Please enter a valid user name");
+                dispatch(editUser({id: user.id, name: newUser}));
             }
         },
         cancelRename = () => {
@@ -28,9 +26,7 @@ function Grid({user, editEnabled, doSaveAll}) {
         }
 
     useEffect(() => {
-        if (doSaveAll) {
-            renameUser();
-        }
+        renameUser();
     }, [doSaveAll])
   return (
     <div className='grid' data-testid="grid">
