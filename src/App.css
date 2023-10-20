@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  background-color: rgb(235, 235, 235);
+}
+
+.app__header {
+  height: 100px;
+  background-color: black;
+  top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+}
+
+.app__options {
+  position: sticky;
+  top: 100px;
+}
+
+.app__footer {
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+}

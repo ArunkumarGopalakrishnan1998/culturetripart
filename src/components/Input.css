@@ -1,0 +1,29 @@
+.input {
+    padding: 20px;
+    border: none;
+    background-color: white;
+    width: 50%;
+    font-size: medium;
+}
+
+.input.small {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: x-large;
+    margin-left: 20px;
+    flex: 0.8;
+}
+
+@media (max-width: 768px){ 
+
+    .input {
+        padding: 10px;
+    }
+    
+    .input.small {
+        padding: 10px;
+        font-size: medium;
+    }
+
+}

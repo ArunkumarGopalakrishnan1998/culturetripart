@@ -1,0 +1,48 @@
+.options {
+    padding: 50px 200px 50px 200px;
+}
+
+.options__add > span{
+    font-size: xx-large;
+}
+
+.options__add > div {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.options__common {
+    margin: 5px 0px;
+    display: flex;
+}
+
+.options__cancel {
+    padding: 15px;
+    margin-right: 5px;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){ 
+    .options {
+        padding: 50px;
+    }
+    .options__common {
+        flex-direction: column;
+    }
+    .options__add > span{
+        font-size: x-large;
+    }
+}
+
+@media (max-width: 425px){ 
+    .options {
+        padding: 20px;
+    }
+    .options__add > span{
+        font-size:large;
+    }
+}

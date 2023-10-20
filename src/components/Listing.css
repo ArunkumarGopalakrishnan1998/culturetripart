@@ -1,0 +1,17 @@
+.listing {
+    margin: 0px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1024px){ 
+    .listing {
+        margin: 0px 50px;
+    }
+}
+
+@media (max-width: 425px){ 
+    .listing {
+        margin: 0px 20px;
+    }
+}
