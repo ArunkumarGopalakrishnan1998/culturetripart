@@ -53,10 +53,10 @@ function Grid({user, editEnabled, doSaveAll}) {
                         {showEdit ? 
                         <>
                             <Button name='Save' size='medium' variant='positive' callback={() => renameUser()} />
-                            <Button name='Cancel' size='medium' variant='cancel' callback={() => cancelRename()} />
+                            <Button name='Cancel' size='medium' variant='general' callback={() => cancelRename()} />
                         </> : 
                         <>
-                            <Button name='Edit' size='medium' variant='theme' callback={() => setShowEdit(true)} />
+                            <Button name='Edit' size='medium' variant='general' callback={() => setShowEdit(true)} />
                             <Button name='Delete' size='medium' variant='negative' callback={removeUser} />
                         </>}
                     </>

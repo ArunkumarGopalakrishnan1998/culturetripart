@@ -10,24 +10,25 @@
     background-color: white;
     display: flex;
     align-items: center;
+    flex: 1;
 }
 
 .grid__details > img {
-    width: 80px;
+    width: 50px;
     background-color: white;
 }
 
 .grid__details > span {
     background-color: white;
     font-size: x-large;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .grid__container, .grid__options {
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .grid__options > span {

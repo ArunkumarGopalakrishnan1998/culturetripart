@@ -1,11 +1,12 @@
 *{
   margin: 0;
   background-color: rgb(235, 235, 235);
+  font-weight: 500;
 }
 
 .app__header {
   height: 100px;
-  background-color: black;
+  background-color: #0161fe;
   top: 0;
   position: sticky;
   display: flex;
@@ -23,7 +24,7 @@
 
 .app__footer {
   height: 100px;
-  background-color: black;
+  background-color: #0161fe;
   display: flex;
   justify-content: center;
   align-items: center;

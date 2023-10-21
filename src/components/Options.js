@@ -39,11 +39,11 @@ function Options({editAll, setEditAll, saveAll, setSaveAll}) {
             <Button name='Delete All' callback={removeAllUsers} size='medium' variant='negative'/>
             {editAll ? 
               <div>
-                <Button name='Edit All' size='medium' variant='theme disabled'>Edit All</Button>
+                <Button name='Edit All' size='medium' variant='general disabled'>Edit All</Button>
                 <Button name='Save all' size='medium' variant='positive' callback={() => {setSaveAll(!saveAll); setEditAll(!editAll)}}/>
                 <Button name='X' size='small' variant='negative' tooltip='Discard Changes' callback={() => setEditAll(!editAll)} />
               </div> : 
-                <Button name='Edit All' size='medium' variant='theme' callback={() => setEditAll(!editAll)} />
+                <Button name='Edit All' size='medium' variant='general' callback={() => setEditAll(!editAll)} />
               }
           </> : <></>  
         }
