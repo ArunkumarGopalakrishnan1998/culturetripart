@@ -4,12 +4,14 @@
     background-color: white;
     width: 50%;
     font-size: medium;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #0000005e;
 }
 
 .input.small {
     padding: 20px;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid #00000026;
     font-size: x-large;
     margin-left: 20px;
     flex: 0.8;

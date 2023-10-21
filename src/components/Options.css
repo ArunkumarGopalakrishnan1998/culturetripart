@@ -1,5 +1,6 @@
 .options {
-    padding: 50px 200px 50px 200px;
+    padding: 30px 200px 30px 200px;
+    margin-bottom: 25px;
 }
 
 .options__add > span{
@@ -26,10 +27,13 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px){ 
+@media (max-width: 1024px){ 
     .options {
-        padding: 50px;
+        padding: 30px 50px 30px 50px;
     }
+}
+@media (max-width: 768px){ 
+
     .options__common {
         flex-direction: column;
     }

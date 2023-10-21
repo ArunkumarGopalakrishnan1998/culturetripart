@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Provider } from 'react-redux'; // If using Redux
-import configureStore from 'redux-mock-store'; // If using Redux
+import { Provider } from 'react-redux';
+import configureStore from 'redux-mock-store';
 import Listing from '../components/Listing.js';
 
 // Mocking user data
