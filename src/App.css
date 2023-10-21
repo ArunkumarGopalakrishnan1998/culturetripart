@@ -6,7 +6,7 @@
 
 .app__header {
   height: 100px;
-  background-color: #0161fe;
+  background-color: black;
   top: 0;
   position: sticky;
   display: flex;
@@ -24,7 +24,7 @@
 
 .app__footer {
   height: 100px;
-  background-color: #0161fe;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
