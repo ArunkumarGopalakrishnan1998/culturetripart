@@ -51,8 +51,9 @@
     .grid__options {
         justify-content: end;
     }
-    .grid__options > span {
+    .grid__options {
         font-size: small;
+        flex: 0.6;
     }
 }
 
